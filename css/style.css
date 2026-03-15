@@ -1,0 +1,410 @@
+:root {
+  --primary-color: #3498db;
+  --d-orange: #bf5604;
+  --orange: #f5710b;
+  --l-orange: #ffb986;
+  --yellow: #fed613;
+  --background-color: #f6f3e9;
+  --text-color: #242424;
+  --text-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  line-height: 1.4;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+.title_section {
+  background-color: var(--orange);
+  color: var(--text-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 0;
+  width: 100%;
+  gap: 12px;
+}
+
+.title_section h2 {
+  font-size: 1.1em;
+}
+
+.title_section h1,
+.title_section h2 {
+  margin: 0;
+}
+
+.logo {
+  height: 70px;
+}
+
+.navbar {
+  background-color: var(--d-orange);
+  color: var(--text-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 24px;
+}
+
+.navbar a {
+  color: var(--text-white);
+  text-decoration: none;
+  padding: 0.7em 1em;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: var(--l-orange);
+}
+
+hr {
+  border: 6px solid var(--yellow);
+  margin: 0;
+}
+
+.container {
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  padding: 48px 24px;
+  background-color: var(--l-orange);
+}
+
+.welcome {
+  padding: 48px 24px;
+}
+
+.welcome h2 {
+  color: var(--d-orange);
+}
+.info_img {
+  width: 100%;
+  margin-top: 24px;
+}
+.welcome_img {
+  width: 50%;
+  margin: 24px auto;
+}
+
+.intro {
+  background-color: var(--l-orange);
+  padding: 48px 24px;
+}
+
+.intro_img {
+  width: 100%;
+}
+
+.docenten {
+  padding: 48px 24px;
+}
+
+.docenten h2 {
+  color: var(--d-orange);
+  margin: 0;
+  margin-top: 1.2em;
+}
+
+.img_text_container {
+  display: block;
+}
+
+.img_text_container p {
+  margin: 0;
+}
+
+.docenten img {
+  margin-bottom: 10px;
+  max-width: 150px;
+  object-fit: contain;
+  align-items: center;
+}
+
+.img_hannah {
+  float: right;
+  margin-left: 20px;
+}
+
+.img_jesse {
+  float: left;
+  margin-right: 20px;
+}
+
+.tarieven {
+  background-color: var(--l-orange);
+  padding: 48px 24px;
+}
+
+.tarieven hr,
+.voorwaarden hr {
+  border: 1px solid lightgrey;
+  margin: 8px 0;
+}
+
+.voorwaarden {
+  padding: 48px 24px;
+}
+
+.voorwaarden h2 {
+  color: var(--d-orange);
+}
+
+.adres {
+  background-color: var(--l-orange);
+  padding: 48px 24px;
+}
+.adres a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--d-orange);
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+  margin-top: 2em;
+}
+
+.contact {
+  padding: 48px 24px;
+}
+
+.contact h2 {
+  color: var(--d-orange);
+}
+
+.subtitle {
+  font-size: 1.1em;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: 100%;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  font-family: "poppins", sans-serif;
+  color: var(--text-color);
+}
+
+input#image {
+  border: none;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.color-pickers {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.color-item {
+  display: flex;
+  flex-direction: column;
+}
+
+input#text-color,
+input#bg-color {
+  height: 35px;
+  padding: 0;
+  width: 50px;
+  border: none;
+}
+
+.submit_btn,
+.read-more {
+  background-color: var(--d-orange);
+  color: var(--text-white);
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 24px;
+}
+footer {
+  background-color: var(--d-orange);
+  color: var(--text-color);
+  text-align: center;
+  padding: 24px;
+}
+
+.container-motivatie {
+  padding: 48px 24px;
+}
+
+.quoteButton {
+  background-color: var(--d-orange);
+  color: var(--text-white);
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.container-blog {
+  padding: 48px 24px;
+}
+
+article {
+  background-color: #ffb98687;
+  border-radius: 8px;
+  padding: 36px 24px;
+  margin-bottom: 16px;
+  width: 100%;
+  font-size: 1.2em;
+  opacity: 0;
+}
+
+article h2 {
+  font-size: 1.2em;
+  margin: 16px 0;
+}
+
+article img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.add-article-btn {
+  color: var(--text-color);
+}
+
+.add-article-btn:hover {
+  color: var(--d-orange);
+}
+
+.full-text {
+  display: none;
+}
+
+#articles {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+#articles.show .full-text {
+  display: block;
+}
+
+#articles.show {
+  flex-direction: column-reverse;
+}
+
+#back {
+  background-color: var(--d-orange);
+  color: var(--text-white);
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+.error-message {
+  color: red;
+  display: block;
+  height: 1rem;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+
+.beheer {
+  padding: 48px 24px;
+}
+
+@media (min-width: 1024px) {
+  .navbar {
+    flex-direction: row;
+    padding: 12px 24px;
+    justify-content: flex-start;
+  }
+
+  .container {
+    flex-direction: row;
+  }
+
+  .sidebar {
+    width: 25%;
+  }
+
+  .main {
+    width: 75%;
+  }
+
+  .docenten img {
+    margin-bottom: 10px;
+    max-width: 300px;
+  }
+
+  form {
+    align-items: flex-start;
+  }
+  #articles {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  article {
+    flex: 0 1 calc(25% - 20px);
+  }
+
+  .form-group {
+    width: 50%;
+  }
+}
